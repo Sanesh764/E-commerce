@@ -1,0 +1,43 @@
+# Environment variables and sensitive secrets
+.env
+.env.*
+*.env
+**/.env*
+
+# Dependency directories
+node_modules/
+**/node_modules/
+
+# Production build outputs
+dist/
+**/dist/
+dist-ssr/
+build/
+.vite/
+
+# Ignore ALL markdown files
+*.md
+**/*.md
+docs/
+
+# EXCEPT README.md files (allowed on GitHub)
+!README.md
+!readme.md
+!**/README.md
+!**/readme.md
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS metadata & Editor configurations
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
